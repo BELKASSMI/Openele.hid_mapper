@@ -1,7 +1,6 @@
 Openele.hid_mapper
 ==================
-Titre : Openelec_HID_mapper
-=====
+<hr>
 Author :
 ========
 BELKASSMI Moussa
