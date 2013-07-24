@@ -1,0 +1,6 @@
+ADDON_DIR="$HOME/.xbmc/addons/debug.tools.hid_mapper"
+
+chmod +x $ADDON_DIR/lib/*
+
+LD_LIBRARY_PATH="$ADDON_DIR/lib:$LD_LIBRARY_PATH" hid_mapper.bin $@
+

@@ -1,0 +1,14 @@
+
+. config/options $1
+
+cd $PKG_BUILD
+
+
+sed -i 's|g++|\$(CXX)|g' Makefile
+sed -i 's|gcc|\$(CC)|g' Makefile
+
+sed -i 's|#include <stdio.h>|#include <stdio.h>\n#include <sys/types.h>|g' hid.c
+
+make
+
+#$STRIP hid_mapper
