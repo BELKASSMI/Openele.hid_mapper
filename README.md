@@ -3,7 +3,9 @@ Openele.hid_mapper
 Author :
 ========
 BELKASSMI Moussa
-Version : beta
+Version :
+=========
+beta
 Description  :
 ==============
 HID devices used to send commands to the X server. However all commands  received are not always directly usable on  Linux. This is why it is interesting to be able to "remap”  them to linux commands (inputdev) of our choice.
