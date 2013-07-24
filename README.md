@@ -1,6 +1,5 @@
 Openele.hid_mapper
 ==================
-<hr>
 Author :
 ========
 BELKASSMI Moussa
